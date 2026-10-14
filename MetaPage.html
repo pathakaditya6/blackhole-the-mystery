@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MetaPage | Black Holes: The Mystery</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .stamp {
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+
+<body>
+    <input class="themeradio" type="radio" name="theme" id="t-solar" checked>
+    <input class="themeradio" type="radio" name="theme" id="t-quasar">
+    <input class="themeradio" type="radio" name="theme" id="t-nebula">
+    <input class="themeradio" type="radio" name="theme" id="t-day">
+    <div class="wrap layout-b">
+        <header>
+            <a href="Main.html"><img class="logo" src="images/logo.svg"
+                    alt="Black Holes logo: a dark circle with a glowing gold ring" width="64" height="64"></a>
+            <div>
+                <h1 id="pagetitle">MetaPage</h1>
+                <p class="tagline">Where each requirement lives in the code</p>
+            </div>
+            <div class="themes">
+                <span>Theme</span>
+                <label class="swatch s-solar" for="t-solar" title="Solar theme"></label>
+                <label class="swatch s-quasar" for="t-quasar" title="Quasar theme"></label>
+                <label class="swatch s-nebula" for="t-nebula" title="Nebula theme"></label>
+                <label class="swatch s-day" for="t-day" title="Day theme"></label>
+            </div>
+        </header>
+        <div class="row">
+            <nav>
+                <p class="navtitle">Site map</p>
+                <ul>
+                    <li><a href="Main.html"><img class="nicon" src="images/icon-home.svg" alt="" width="20"
+                                height="20">Home</a></li>
+                    <li><a href="Origins.html"><img class="nicon" src="images/icon-origins.svg" alt="" width="20"
+                                height="20">Origins</a>
+                        <ul>
+                            <li><a href="Contact.html"><img class="nicon" src="images/icon-contact.svg" alt=""
+                                        width="20" height="20">Contact</a></li>
+                            <li><a href="MetaPage.html" class="current" aria-current="page"><img class="nicon"
+                                        src="images/icon-meta.svg" alt="" width="20" height="20">MetaPage</a>
+                                <ul>
+                                    <li><a href="References.html"><img class="nicon" src="images/icon-references.svg"
+                                                alt="" width="20" height="20">References</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="Detection.html"><img class="nicon" src="images/icon-detection.svg" alt=""
+                                        width="20" height="20">Detection</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="col">
+                <main>
+                    <figure class="figr">
+                        <img src="images/galaxy-b.jpg" alt="A close view of the Andromeda galaxy with dark dust lanes"
+                            width="300" height="196">
+                        <figcaption>Dust lanes in Andromeda </figcaption>
+                    </figure>
+                    <h2>Requirement Cross-Reference</h2>
+                    <p>Line numbers refer to the saved files. The old <code>border</code> and <code>width</code> table
+                        attributes and the <code>align</code> image attribute fail HTML5 validation, so they are done
+                        with CSS instead.</p>
+                    <div class="scroll">
+                        <table class="kinds">
+                            <caption>Design specifications and where they are met</caption>
+                            <tr>
+                                <th scope="col">DS</th>
+                                <th scope="col">Requirement</th>
+                                <th scope="col">File and line</th>
+                            </tr>
+                            <tr>
+                                <td>DS1</td>
+                                <td>Topic from the list: Black Holes. The Mystery</td>
+                                <td>Main.html: line 39</td>
+                            </tr>
+                            <tr>
+                                <td>DS2</td>
+                                <td>Page titles and file names (Main, Origins, Detection, Contact, References, MetaPage)
+                                </td>
+                                <td>Main.html: line 6<br>Origins.html: line 6<br>Detection.html: line 6<br>Contact.html:
+                                    line 6<br>References.html: line 6<br>MetaPage.html: line 6</td>
+                            </tr>
+                            <tr>
+                                <td>DS2</td>
+                                <td>Student ID on the Contact page</td>
+                                <td>Contact.html: line 60</td>
+                            </tr>
+                            <tr>
+                                <td>DS2</td>
+                                <td>Reference list with 5 or more Harvard references</td>
+                                <td>References.html: line 44</td>
+                            </tr>
+                            <tr>
+                                <td>DS3</td>
+                                <td>Content image on every page (alt, width, height attributes)</td>
+                                <td>Main.html: line 52<br>Origins.html: line 53<br>Detection.html: line
+                                    64<br>Contact.html: line 62<br>References.html: line 63<br>MetaPage.html: line 53
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>DS3</td>
+                                <td>Image used as a hyperlink</td>
+                                <td>Main.html: line 37</td>
+                            </tr>
+                            <tr>
+                                <td>DS3</td>
+                                <td>Images in header, footer and navigation icons</td>
+                                <td>Main.html: lines 37, 21, 117</td>
+                            </tr>
+                            <tr>
+                                <td>DS3</td>
+                                <td>Background images (CSS)</td>
+                                <td>style.css: line 3</td>
+                            </tr>
+                            <tr>
+                                <td>DS3</td>
+                                <td>Image border and alignment (CSS)</td>
+                                <td>style.css: lines 75, 74</td>
+                            </tr>
+                            <tr>
+                                <td>DS4</td>
+                                <td>External link and email link</td>
+                                <td>Main.html: line 88<br>Contact.html: line 61</td>
+                            </tr>
+                            <tr>
+                                <td>DS5</td>
+                                <td>Contact form</td>
+                                <td>Contact.html: line 36</td>
+                            </tr>
+                            <tr>
+                                <td>DS6</td>
+                                <td>Unordered, ordered and description lists</td>
+                                <td>Main.html: line 20<br>Origins.html: line 59<br>Detection.html: line 96</td>
+                            </tr>
+                            <tr>
+                                <td>DS7</td>
+                                <td>UTF-8 declaration and symbols</td>
+                                <td>Main.html: lines 4, 118, 59, 56<br>Origins.html: line 83</td>
+                            </tr>
+                            <tr>
+                                <td>DS8</td>
+                                <td>Line break, block quote, phrase elements</td>
+                                <td>Main.html: lines 55, 80, 55, 83<br>Origins.html: line 61</td>
+                            </tr>
+                            <tr>
+                                <td>DS9</td>
+                                <td>div, header, nav, main, footer</td>
+                                <td>Main.html: lines 17, 36, 18, 50, 116</td>
+                            </tr>
+                            <tr>
+                                <td>DS10</td>
+                                <td>Inline, embedded and external CSS</td>
+                                <td>Main.html: lines 91, 8, 7</td>
+                            </tr>
+                            <tr>
+                                <td>DS11</td>
+                                <td>CSS properties: text colour, font family, size, style, weight, margin, text-align,
+                                    text-decoration, text-shadow, text-transform</td>
+                                <td>style.css: lines 2, 2, 2, 46, 34, 2, 48, 34, 21, 21</td>
+                            </tr>
+                            <tr>
+                                <td>DS12</td>
+                                <td>All colours in hexadecimal</td>
+                                <td>style.css: line 2</td>
+                            </tr>
+                            <tr>
+                                <td>DS13</td>
+                                <td>Class selector and ID selector (external CSS)</td>
+                                <td>style.css: lines 6, 21</td>
+                            </tr>
+                            <tr>
+                                <td>DS14</td>
+                                <td>Wireframe layouts: (a) Main, (b) Origins/Detection/MetaPage, own designs for Contact
+                                    and References</td>
+                                <td>Main.html: line 17<br>Origins.html: line 17<br>Contact.html: line
+                                    17<br>References.html: line 17<br>style.css: line 10</td>
+                            </tr>
+                            <tr>
+                                <td>DS15</td>
+                                <td>Three tables</td>
+                                <td>Main.html: line 107<br>Origins.html: line 80<br>Detection.html: line 84</td>
+                            </tr>
+                            <tr>
+                                <td>DS15</td>
+                                <td>Table features: colspan, rowspan, borders, size, alignment, th/td style, responsive
+                                    wrapper</td>
+                                <td>Main.html: line 109<br>Detection.html: line 87<br>style.css: lines 79, 82, 48, 81,
+                                    93</td>
+                            </tr>
+                            <tr>
+                                <td>DS16</td>
+                                <td>Validation screenshots</td>
+                                <td>MetaPage.html: lines 96, 98</td>
+                            </tr>
+                            <tr>
+                                <td>DS17</td>
+                                <td>Site map menu inside nav</td>
+                                <td>Main.html: line 18<br>Origins.html: line 33<br>Detection.html: line
+                                    33<br>Contact.html: line 73<br>References.html: line 32<br>MetaPage.html: line 33
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Extra</td>
+                                <td>Interactive colour themes (radio buttons and :checked)</td>
+                                <td>Main.html: line 13<br>style.css: lines 7, 6</td>
+                            </tr>
+                            <tr>
+                                <td>Extra</td>
+                                <td>Flip cards (3D transform on hover or focus)</td>
+                                <td>Main.html: line 61<br>style.css: line 67</td>
+                            </tr>
+                            <tr>
+                                <td>Extra</td>
+                                <td>Tabs (radio buttons and :checked)</td>
+                                <td>Detection.html: line 55<br>style.css: line 101</td>
+                            </tr>
+                            <tr>
+                                <td>Extra</td>
+                                <td>Expandable questions (details and summary)</td>
+                                <td>Origins.html: line 90<br>style.css: line 103</td>
+                            </tr>
+                            <tr>
+                                <td>Extra</td>
+                                <td>Hover and focus effects</td>
+                                <td>style.css: lines 60, 35, 115</td>
+                            </tr>
+                            <tr>
+                                <td>Extra</td>
+                                <td>Animations (@keyframes): spinning logo, drifting stars, slow zoom, pulsing button
+                                </td>
+                                <td>style.css: lines 124, 3, 127, 128</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <h2>Validation Results</h2>
+                    <p><a href="https://validator.w3.org/">W3C Markup validation service</a></p>
+                    <p><img src="images/validation-html.png" alt="Screenshot of HTML validation result" width="640"
+                            height="160"></p>
+                    <p><a href="https://jigsaw.w3.org/css-validator/">W3C CSS validation service</a></p>
+                    <p><img src="images/validation-css.png" alt="Screenshot of CSS validation result" width="640"
+                            height="160"></p>
+                </main>
+                <footer>
+                    <img class="icon" src="images/icon-origins.svg" alt="Spiral galaxy icon" width="22" height="22">
+                    <span>© 2026 Black Holes: The Mystery | Student ID: U3316490</span>
+                    <br>
+                    <a href="Main.html">Home</a> · <a href="Origins.html">Origins</a> · <a
+                        href="Detection.html">Detection</a> · <a href="mailto:student@example.com">student@example.com</a>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

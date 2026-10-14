@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Origins | Black Holes: The Mystery</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .stamp {
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+
+<body>
+    <input class="themeradio" type="radio" name="theme" id="t-solar" checked>
+    <input class="themeradio" type="radio" name="theme" id="t-quasar">
+    <input class="themeradio" type="radio" name="theme" id="t-nebula">
+    <input class="themeradio" type="radio" name="theme" id="t-day">
+    <div class="wrap layout-b">
+        <header>
+            <a href="Main.html"><img class="logo" src="images/logo.svg"
+                    alt="Black Holes logo: a dark circle with a glowing gold ring" width="64" height="64"></a>
+            <div>
+                <h1 id="pagetitle">Origins</h1>
+                <p class="tagline">How black holes are born</p>
+            </div>
+            <div class="themes">
+                <span>Theme</span>
+                <label class="swatch s-solar" for="t-solar" title="Solar theme"></label>
+                <label class="swatch s-quasar" for="t-quasar" title="Quasar theme"></label>
+                <label class="swatch s-nebula" for="t-nebula" title="Nebula theme"></label>
+                <label class="swatch s-day" for="t-day" title="Day theme"></label>
+            </div>
+        </header>
+        <div class="row">
+            <nav>
+                <p class="navtitle">Site map</p>
+                <ul>
+                    <li><a href="Main.html"><img class="nicon" src="images/icon-home.svg" alt="" width="20"
+                                height="20">Home</a></li>
+                    <li><a href="Origins.html" class="current" aria-current="page"><img class="nicon"
+                                src="images/icon-origins.svg" alt="" width="20" height="20">Origins</a>
+                        <ul>
+                            <li><a href="Contact.html"><img class="nicon" src="images/icon-contact.svg" alt=""
+                                        width="20" height="20">Contact</a></li>
+                            <li><a href="MetaPage.html"><img class="nicon" src="images/icon-meta.svg" alt="" width="20"
+                                        height="20">MetaPage</a>
+                                <ul>
+                                    <li><a href="References.html"><img class="nicon" src="images/icon-references.svg"
+                                                alt="" width="20" height="20">References</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="Detection.html"><img class="nicon" src="images/icon-detection.svg" alt=""
+                                        width="20" height="20">Detection</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="col">
+                <main>
+                    <figure class="figr">
+                        <img src="images/origins.jpg"
+                            alt="A black hole inside blue glowing rings of gas and magnetic field lines"
+                            width="300" height="225">
+                        <figcaption>Blue accretion disk and magnetic field lines.</figcaption>
+                    </figure>
+                    <h2>The Origins of Black Holes</h2>
+                    <p>Black holes can form in different ways — from the explosive deaths of massive stars, from the
+                        collapse of dense stars, or through the merger of other black holes.</p>
+                    <h2>From Star to Black Hole</h2>
+                    <ol>
+                        <li>A massive star burns fuel, and the <strong>pressure</strong> balances gravity.</li>
+                        <li>The fuel runs out, and the <em>core collapses</em> (NASA, 2026).</li>
+                        <li>If enough mass is squeezed into a small space, an event horizon forms.</li>
+                    </ol>
+                    <h2>Types of Black Holes</h2>
+                    <div class="cards">
+                        <figure class="card">
+                            <img src="images/card-stellar.jpg"
+                                alt="Artist impression of a bright blue star feeding gas into a nearby black hole"
+                                width="320" height="210">
+                            <figcaption><strong>Stellar black holes</strong>Formed from the collapse of massive stars.
+                            </figcaption>
+                        </figure>
+                        <figure class="card">
+                            <img src="images/card-intermediate.jpg"
+                                alt="A black hole wrapped in pink and violet clouds of gas"
+                                width="320" height="210">
+                            <figcaption><strong>Intermediate black holes</strong>Larger than stellar, smaller than
+                                supermassive.</figcaption>
+                        </figure>
+                        <figure class="card">
+                            <img src="images/card-supermassive.jpg"
+                                alt="A black hole with a bright disk and jets of energy"
+                                width="320" height="210">
+                            <figcaption><strong>Supermassive black holes</strong>Found at the centre of most large
+                                galaxies.</figcaption>
+                        </figure>
+                    </div>
+                    <div class="scroll">
+                        <table class="kinds">
+                            <caption>Three kinds compared</caption>
+                            <tr>
+                                <th scope="col">Kind</th>
+                                <th scope="col">Rough mass</th>
+                                <th scope="col">Example</th>
+                                <th scope="col">Evidence strength</th>
+                            </tr>
+                            <tr>
+                                <td>Stellar</td>
+                                <td>A few to tens of Suns</td>
+                                <td>Cygnus X-1</td>
+                                <td class="stars">★★★★★</td>
+                            </tr>
+                            <tr>
+                                <td>Intermediate</td>
+                                <td>Hundreds to thousands of Suns</td>
+                                <td>A few candidates</td>
+                                <td class="stars">★★</td>
+                            </tr>
+                            <tr>
+                                <td>Supermassive</td>
+                                <td>Millions to billions of Suns</td>
+                                <td>Sagittarius A*, M87*</td>
+                                <td class="stars">★★★★★</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <p class="note">Evidence ratings are own judgement, not an official measure.</p>
+                    <h2>Quick Questions</h2>
+                    <details>
+                        <summary>Can light escape a black hole?</summary>
+                        <p>No. Once light crosses the event horizon, it cannot get back out.</p>
+                    </details>
+                    <details>
+                        <summary>Will the Sun become a black hole?</summary>
+                        <p>No. The Sun does not have enough mass to collapse into one.</p>
+                    </details>
+                    <details>
+                        <summary>Do black holes pull everything in?</summary>
+                        <p>No. From far away, a black hole's gravity is like that of any object with the same mass. Only
+                            things that get too close are trapped.</p>
+                    </details>
+                </main>
+                <footer>
+                    <img class="icon" src="images/icon-origins.svg" alt="Spiral galaxy icon" width="22" height="22">
+                    <span>© 2026 Black Holes: The Mystery | Student ID: U3316490</span>
+                    <br>
+                    <a href="Main.html">Home</a> · <a href="Origins.html">Origins</a> · <a
+                        href="Detection.html">Detection</a> · <a href="mailto:student@example.com">student@example.com</a>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

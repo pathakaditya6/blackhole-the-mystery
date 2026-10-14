@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Get in Touch | Black Holes: The Mystery</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .stamp {
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+
+<body>
+    <input class="themeradio" type="radio" name="theme" id="t-solar" checked>
+    <input class="themeradio" type="radio" name="theme" id="t-quasar">
+    <input class="themeradio" type="radio" name="theme" id="t-nebula">
+    <input class="themeradio" type="radio" name="theme" id="t-day">
+    <div class="wrap layout-c">
+        <header>
+            <a href="Main.html"><img class="logo" src="images/logo.svg"
+                    alt="Black Holes logo: a dark circle with a glowing gold ring" width="64" height="64"></a>
+            <div>
+                <h1 id="pagetitle">Get in Touch</h1>
+                <p class="tagline">Have a question? Send us a message</p>
+            </div>
+            <div class="themes">
+                <span>Theme</span>
+                <label class="swatch s-solar" for="t-solar" title="Solar theme"></label>
+                <label class="swatch s-quasar" for="t-quasar" title="Quasar theme"></label>
+                <label class="swatch s-nebula" for="t-nebula" title="Nebula theme"></label>
+                <label class="swatch s-day" for="t-day" title="Day theme"></label>
+            </div>
+        </header>
+        <div class="row row-rev">
+            <main>
+                
+                <p class="note">Have a question or want to learn more? Use the sample form below.
+                </p>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Send a message</legend>
+                        <label for="who">Name</label>
+                        <input type="text" id="who" name="who" placeholder="Example name">
+                        <label for="mail">Email</label>
+                        <input type="email" id="mail" name="mail" placeholder="student@email.com">
+                        <label for="topic">Favourite topic</label>
+                        <select id="topic" name="topic">
+                            <option>Origins</option>
+                            <option>Detection</option>
+                            <option>Galaxies</option>
+                        </select>
+                        <p><label><input type="radio" name="kind" value="question" checked> Question</label>
+                            <label><input type="radio" name="kind" value="feedback"> Feedback</label>
+                        </p>
+                        <label for="msg">Message</label>
+                        <textarea id="msg" name="msg" rows="5" placeholder="Type your message here"></textarea>
+                        <label><input type="checkbox" name="copy"> Send me a copy</label>
+                        <button type="submit">Send Message</button>
+                        <button type="reset">Clear</button>
+                    </fieldset>
+                </form>
+                <div class="infocard">
+                    <h2>Contact Information</h2>
+                    <p>Student ID: U3316490<br>
+                        Email: <a href="mailto:student@example.com">student@example.com</a></p>
+                    <img class="ci" src="images/contact.jpg"
+                        alt="A black hole with a golden disk of gas inside a galaxy" width="280"
+                        height="183">
+                </div>
+                <div class="infocard">
+                    <h2>Useful Links</h2>
+                    <ul>
+                        <li><a href="https://science.nasa.gov/universe/black-holes/" target="_blank"
+                                rel="noopener noreferrer">NASA: Black Holes</a></li>
+                        <li><a href="https://eventhorizontelescope.org/" target="_blank" rel="noopener noreferrer">Event
+                                Horizon Telescope</a></li>
+                        <li><a href="https://www.space.gov.au/" target="_blank" rel="noopener noreferrer">Australian
+                                Space Agency</a></li>
+                    </ul>
+                </div>
+            </main>
+            <nav>
+                <p class="navtitle">Site map</p>
+                <ul>
+                    <li><a href="Main.html"><img class="nicon" src="images/icon-home.svg" alt="" width="20"
+                                height="20">Home</a></li>
+                    <li><a href="Origins.html"><img class="nicon" src="images/icon-origins.svg" alt="" width="20"
+                                height="20">Origins</a>
+                        <ul>
+                            <li><a href="Contact.html" class="current" aria-current="page"><img class="nicon"
+                                        src="images/icon-contact.svg" alt="" width="20" height="20">Contact</a></li>
+                            <li><a href="MetaPage.html"><img class="nicon" src="images/icon-meta.svg" alt="" width="20"
+                                        height="20">MetaPage</a>
+                                <ul>
+                                    <li><a href="References.html"><img class="nicon" src="images/icon-references.svg"
+                                                alt="" width="20" height="20">References</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="Detection.html"><img class="nicon" src="images/icon-detection.svg" alt=""
+                                        width="20" height="20">Detection</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <footer>
+            <img class="icon" src="images/icon-origins.svg" alt="Spiral galaxy icon" width="22" height="22">
+            <span>© 2026 Black Holes: The Mystery | Student ID: U3316490</span>
+            <br>
+            <a href="Main.html">Home</a> · <a href="Origins.html">Origins</a> · <a href="Detection.html">Detection</a> ·
+            <a href="mailto:student@example.com">student@example.com</a>
+        </footer>
+    </div>
+</body>
+
+</html>
